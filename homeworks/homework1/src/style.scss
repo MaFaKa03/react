@@ -1,0 +1,8 @@
+.Container{
+    background-color: black;
+    display: flex;
+    align-self: flex-end;
+    &__Text{
+        color: white;
+    }
+}
