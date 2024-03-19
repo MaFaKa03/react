@@ -6,6 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 import store from "./store";
 import { Provider } from "react-redux";
 
+// const middleware = (store) => (next) => (action) => {
+//   console.log("Действие:", action);
+//   console.log("Состояние (до):", store.getState());
+//   return next(action);
+// };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
